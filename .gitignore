@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cached raw data (re-downloaded by the code)
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+
+# Private working notes (local only)
+CLAUDE.md
+PROGRESS.md
